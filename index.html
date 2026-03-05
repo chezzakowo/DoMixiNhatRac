@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dọn rác cùng Độ Mixi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-wrapper">
+  <canvas id="gameCanvas" width="480" height="360"></canvas>
+
+  <div id="hud">
+    <div class="hud-box">⭐ <span id="score-display">0</span></div>
+    <div class="hud-box lives-box" id="lives-display">
+      <span class="heart">❤️</span><span class="heart">❤️</span><span class="heart">❤️</span>
+    </div>
+  </div>
+
+  <!-- <div id="instructions-bar">← → or Mouse to move | Catch rubbish, avoid marine life!</div> -->
+
+  <!-- START SCREEN -->
+  <div id="overlay">
+    <div id="start-screen" style="display:flex;flex-direction:column;align-items:center;gap:14px;padding:20px;width:100%;height:100%;justify-content:center;border-radius:12px;background:linear-gradient(180deg,rgba(0,20,60,0.92),rgba(0,60,120,0.92))">
+      <div class="title-fish">🐟</div>
+      <h1>Dọn rác cùng<br>Độ Mixi!</h1>
+      <p>Giúp anh Độ Mixi dọn <strong style="color:#7df9ff">rác</strong> bằng lưới, nhưng <strong style="color:#ff6b6b">đừng bắt sinh vật biển nhe</strong>!</p>
+      <div class="instructions">
+        <div class="inst-item">
+          <div class="inst-icon">🗑️</div>
+          <div class="inst-label">Bắt</div>
+          <div class="inst-desc">Rác +10 điểm</div>
+        </div>
+        <div class="inst-item">
+          <div class="inst-icon">🐠</div>
+          <div class="inst-label">Né</div>
+          <div class="inst-desc">Sinh vật sống</div>
+        </div>
+        <div class="inst-item">
+          <div class="inst-icon">🖱️</div>
+          <div class="inst-label">Di chuyển</div>
+          <div class="inst-desc">Bằng chuột và phím mũi tên</div>
+        </div>
+      </div>
+      <button class="btn" id="start-btn">🌊 Chơi!</button>
+    </div>
+  </div>
+
+  <!-- GAME OVER SCREEN — hidden on init via .hidden class -->
+  <div id="overlay-gameover" class="hidden" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-radius:12px;background:linear-gradient(180deg,rgba(20,0,40,0.94),rgba(60,0,80,0.94));z-index:20;">
+    <div style="font-size:48px">😢</div>
+    <h2 style="font-family:'Fredoka One',cursive;font-size:36px;color:#ff6b9d;text-shadow:0 0 20px rgba(255,100,150,0.7)">Bạn đã thua cuộc!</h2>
+    <div id="final-score" style="font-family:'Fredoka One',cursive;font-size:22px;color:#ffd700;text-shadow:0 0 12px rgba(255,200,0,0.6)">Điểm: 0</div>
+    <div id="gameover-msg" style="color:#ddc8ff;font-size:13px;text-align:center;max-width:320px;padding:0 16px;"></div>
+    <button class="btn" id="restart-btn" style="margin-top:4px">🔄 Chơi lại</button>
+  </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

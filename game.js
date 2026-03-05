@@ -47,11 +47,11 @@ const ASSETS = {
 const AudioManager = (() => {
   const _menu = new Audio("menu.mp3");
   _menu.loop   = true;
-  _menu.volume = 0.6;
+  _menu.volume = 1;
 
   const _game = new Audio("music.mp3");
   _game.loop   = true;
-  _game.volume = 0.6;
+  _game.volume = 1;
 
   // Trình duyệt chặn autoplay — lưu cờ, phát ngay sau gesture đầu tiên
   let _ready   = false;
@@ -167,7 +167,7 @@ function preloadAll() {
 function playSound(id) {
   try {
     const audio = new Audio(ASSETS[id]);
-    audio.volume = 0.5;
+    audio.volume = 1;
     audio.play().catch(()=>{});
   } catch(e) {}
 }

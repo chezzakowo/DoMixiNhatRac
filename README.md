@@ -191,7 +191,7 @@ git push origin main
 # https://<username>.github.io/DoMixiNhatRac/
 ```
 
-Hoặc deploy nhanh với **Netlify** bằng cách kéo thả thư mục repo vào [app.netlify.com](https://app.netlify.com/drop) — xong ngay trong 10 giây! ⚡
+Hoặc deploy bằng **Netlify**
 
 ---
 
@@ -216,6 +216,7 @@ Nhạc nền trong game được lấy cảm hứng và tham khảo từ:
 Game này được lấy cảm hứng và phát triển dựa trên project Scratch của cộng đồng:
 
 > 🐱 **Project Scratch gốc:** [scratch.mit.edu/projects/759277620](https://scratch.mit.edu/projects/759277620/)
+> 🎵 **Nhạc In-Game gốc:** [GIAO HƯỞNG THANK ĐỘ - WOLFGANG KILLNTEA ](https://youtu.be/ohz9EXtmVY8)
 
 Toàn bộ ý tưởng gameplay, nhân vật và các asset hình ảnh đều được tham khảo từ project trên. Cảm ơn bro vì đã cứu tôi trong 2 tiết 💙
 

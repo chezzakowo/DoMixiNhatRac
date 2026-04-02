@@ -26,8 +26,6 @@ Trong game, bạn sẽ cùng anh Độ cầm lưới dọn rác trên bãi biể
 
 ![Meme Độ Mixi Tộc Trưởng](https://img.youtube.com/vi/PD61lIYrG-M/mqdefault.jpg)
 
-*"Em mà không đi dọn rác với anh là anh đăng hết thông tin của em lên mạng đấy 🐧"* 
-
 </div>
 
 ---
@@ -41,7 +39,7 @@ Trong game, bạn sẽ cùng anh Độ cầm lưới dọn rác trên bãi biể
 - [🏆 Cơ Cấu Tính Điểm](#-cơ-cấu-tính-điểm)
 - [🛠️ Tùy Chỉnh & Deploy](#️-tùy-chỉnh--deploy)
 - [🎵 Nguồn Nhạc](#-nguồn-nhạc)
-- [🙏 Cảm Ơn Tác Giả Gốc](#-em-cảm-ơn-anh-tác-giả)
+- [💖 Cảm Ơn Tác Giả Gốc](#-tác-giả-gốc)
 - [📄 License](#-license)
 
 ---
@@ -204,7 +202,7 @@ Nhạc nền trong game được lấy cảm hứng và tham khảo từ:
 
 ---
 
-## 🙏 Em cảm ơn anh tác giả
+## 💖Tác giả gốc
 
 <div align="center">
 
@@ -213,7 +211,7 @@ Nhạc nền trong game được lấy cảm hứng và tham khảo từ:
 
 </div>
 
-Game này được lấy cảm hứng và phát triển dựa trên project Scratch của cộng đồng:
+Game này được lấy cảm hứng và phát triển dựa trên project Scratch mình lấy trên tab công khai:
 
 > 🐱 **Project Scratch gốc:** [scratch.mit.edu/projects/759277620](https://scratch.mit.edu/projects/759277620/)
 > 🎵 **Nhạc In-Game gốc:** [GIAO HƯỞNG THANK ĐỘ - WOLFGANG KILLNTEA ](https://youtu.be/ohz9EXtmVY8)
